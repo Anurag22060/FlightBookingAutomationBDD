@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.585 s <<< FAILURE! -- in runners.TestRunner
+Flight Search.Search flight by valid number -- Time elapsed: 3.554 s <<< ERROR!
+java.lang.RuntimeException: CAPTCHA failed. Login aborted.
+	at pages.LoginPage.login(LoginPage.java:42)
+	at stepDefinitions.FlightSearchSteps.login(FlightSearchSteps.java:33)
+	at ✽.I login with username "flightadmin" and password "flightadmin"(file:///C:/Users/sawal/eclipse-workspace/FlightBookingAutomationBDD/src/test/resources/features/FlightSearch.feature:5)
+
